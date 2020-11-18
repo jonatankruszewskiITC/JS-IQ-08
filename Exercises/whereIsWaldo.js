@@ -6,12 +6,12 @@ whereIsWaldo([
  ["A", "A", "A"],
  ["A", "A", "A"],
  ["A", "B", "A"]
-]) ➞ [3, 2]
+]) ➞ [ 2, 1]
 
 whereIsWaldo([
  ["c", "c", "c", "c"],
  ["c", "c", "c", "d"]
-]) ➞ [2, 4]
+]) ➞ [1, 3]
 
 whereIsWaldo([
  ["O", "O", "O", "O"],
@@ -20,12 +20,12 @@ whereIsWaldo([
  ["O", "O", "O", "O"],
  ["P", "O", "O", "O"],
  ["O", "O", "O", "O"]
-]) ➞ [5, 1]
+]) ➞ [4, 0]
 Notes
 Rows and columns are 0-indexed.
 */
 
-function whereIsWaldo( /*args*/ ) {
+function whereIsWaldo(/*args*/) {
   //your code
 }
 
